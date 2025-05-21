@@ -13,21 +13,21 @@ interface PDFGeneratorOptions {
   anexos: File[]
 }
 
-// Paleta de cores moderna
+// Modificar a paleta de cores para usar tons de verde semelhantes à logomarca
 const COLORS = {
-  primary: [41, 65, 97], // Azul escuro
-  secondary: [83, 144, 217], // Azul médio
-  accent: [255, 107, 107], // Coral (para destaques)
+  primary: [26, 69, 67], // Verde escuro (semelhante ao da logomarca)
+  secondary: [58, 115, 95], // Verde médio
+  accent: [207, 184, 124], // Dourado/bege (semelhante ao texto da logomarca)
   neutral: [240, 240, 240], // Cinza claro
   neutralDark: [200, 200, 200], // Cinza médio
   text: [51, 51, 51], // Quase preto
   textLight: [120, 120, 120], // Cinza escuro
   white: [255, 255, 255], // Branco
-  sectionBg: [248, 250, 252], // Fundo muito claro
+  sectionBg: [240, 248, 245], // Fundo verde muito claro
   tableBorder: [230, 230, 230], // Cinza claro para bordas
-  tableHeader: [245, 247, 250], // Cinza azulado claro
+  tableHeader: [235, 245, 240], // Verde azulado claro
   tableRowEven: [255, 255, 255], // Branco
-  tableRowOdd: [250, 252, 255], // Azul muito claro
+  tableRowOdd: [240, 248, 245], // Verde muito claro
 }
 
 // Remover a função addSignatures completamente
